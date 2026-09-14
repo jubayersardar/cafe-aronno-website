@@ -1,0 +1,242 @@
+.home-visit-preview {
+  padding: 85px 5% 90px;
+  background: #fbfaf6;
+  border-bottom: 1px solid #dce4d5;
+}
+
+.hvp-container {
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.hvp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 52px;
+  align-items: center;
+}
+
+.hvp-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.hvp-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #55724c;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+.hvp-info h2 {
+  font-size: clamp(34px, 3.8vw, 54px);
+  line-height: 1.15;
+  color: var(--forest);
+  margin: 0;
+}
+
+.hvp-info h2 em {
+  color: #587957;
+  font-style: normal;
+}
+
+.hvp-desc {
+  font-family: var(--bengali);
+  font-size: 14.5px;
+  color: #5d6d5e;
+  line-height: 1.85;
+  margin: 0;
+}
+
+.hvp-details {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.hvp-detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 12px 16px;
+  background: #f4f8ed;
+  border: 1px solid #dbe6ce;
+  border-radius: 12px;
+}
+
+.hvp-icon-circle {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #173b2d;
+  color: #dbe8be;
+  flex-shrink: 0;
+}
+
+.hvp-detail-item strong {
+  display: block;
+  font-family: var(--bengali);
+  font-size: 14px;
+  color: #173b2d;
+  margin-bottom: 2px;
+}
+
+.hvp-detail-item p {
+  font-family: var(--bengali);
+  font-size: 13px;
+  color: #586859;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.hvp-phone-link {
+  font-family: var(--sans);
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #173b2d;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.hvp-phone-link:hover {
+  color: #437d2f;
+  text-decoration: underline;
+}
+
+.hvp-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.hvp-primary-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 24px;
+  background: #173b2d;
+  border: 1px solid #173b2d;
+  border-radius: 8px;
+  color: #f7f9f3;
+  font-family: var(--bengali);
+  font-size: 14.5px;
+  font-weight: 600;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px #173b2d22;
+  transition: all 0.22s ease;
+}
+
+.hvp-primary-btn:hover {
+  background: #235440;
+  border-color: #235440;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px #173b2d35;
+}
+
+.hvp-maps-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 20px;
+  background: #fff;
+  border: 1px solid #cad6c0;
+  border-radius: 8px;
+  color: #284c39;
+  font-family: var(--bengali);
+  font-size: 13.5px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.hvp-maps-btn:hover {
+  background: #eef5e6;
+  border-color: #9eb58a;
+  color: #163625;
+}
+
+/* Visual Column */
+.hvp-visual {
+  width: 100%;
+}
+
+.hvp-media-card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 35px #10291e18;
+  border: 1px solid #d5e0cb;
+}
+
+.hvp-media-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hvp-visual-overlay {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 24px 20px;
+  background: linear-gradient(0deg, #0a2118f2 0%, #0a211880 70%, transparent 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.hvp-visual-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  align-self: flex-start;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: #ffffff25;
+  backdrop-filter: blur(6px);
+  font-family: var(--bengali);
+  font-size: 11.5px;
+  color: #dbe8be;
+}
+
+.hvp-visual-title {
+  font-family: var(--bengali);
+  font-size: 15px;
+  font-weight: 600;
+  color: #f7f9f3;
+  margin: 0;
+}
+
+@media (max-width: 960px) {
+  .hvp-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .hvp-primary-btn,
+  .hvp-maps-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 680px) {
+  .home-visit-preview {
+    padding: 60px 5% 65px;
+  }
+}

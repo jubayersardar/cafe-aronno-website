@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="privacy-page"><p className="eyebrow">CAFE ARONNO</p><h1>This path takes a little detour.</h1><p>The page you’re looking for could not be found. Come back to the café to explore the menu, gallery and directions.</p><a className="button button-dark" href="/" style={{marginTop:25}}>Home / হোম →</a></main>;}

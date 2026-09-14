@@ -1,0 +1,750 @@
+{
+  "restaurant": {
+    "name_en": "Cafe Aronno",
+    "name_bn": "ক্যাফে অরণ্য"
+  },
+  "source_image": "C:/Users/Surface/AppData/Local/Temp/codex-clipboard-f2b47344-6016-4272-8910-da8d47bccc6b.png",
+  "currency": "BDT",
+  "transcription_notes": [
+    "Transcribed from the supplied photograph; no external menu source used.",
+    "Categories whose Bengali name is not printed in the photo have a translated Bengali label.",
+    "Repeated items in different printed categories are retained.",
+    "Printed spelling and spacing are preserved where readable; exact spelling remains uncertain for the explicitly noted items.",
+    "Portion labels 1:1 and 1:3 are preserved as printed rather than given an unverified interpretation.",
+    "Classic pizza 6-inch price resolved to 360 BDT from high-resolution original Google Maps photograph on 2026-09-05."
+  ],
+  "categories": [
+    {
+      "id": "fast-food",
+      "name_en": "Fast Food & Snacks",
+      "name_bn": "ফাস্ট ফুড ও স্ন্যাকস",
+      "items": [
+        {
+          "id": "fast-food-1",
+          "name_bn": "চিকেন ফ্রাই",
+          "name_en": "Chicken Fry",
+          "price_bdt": 70
+        },
+        {
+          "id": "fast-food-2",
+          "name_bn": "চিকেন রোল",
+          "name_en": "Chicken Roll",
+          "price_bdt": 30
+        },
+        {
+          "id": "fast-food-3",
+          "name_bn": "চিকেন শর্মা",
+          "name_en": "Chicken Shawarma",
+          "price_bdt": 50,
+          "note": "Printed Bengali appears to be শর্মা."
+        },
+        {
+          "id": "fast-food-4",
+          "name_bn": "চিকেন বার্গার",
+          "name_en": "Chicken Burger",
+          "price_bdt": 80
+        },
+        {
+          "id": "fast-food-5",
+          "name_bn": "চিকেন স্যান্ডউইচ",
+          "name_en": "Chicken Sandwich",
+          "price_bdt": 70
+        },
+        {
+          "id": "fast-food-6",
+          "name_bn": "BBQ চিকেন পিজ্জা",
+          "name_en": "BBQ Chicken Pizza",
+          "price_bdt": 100
+        },
+        {
+          "id": "fast-food-7",
+          "name_bn": "BBQ হট উইংস",
+          "name_en": "BBQ Hot Wings",
+          "price_bdt": 50
+        },
+        {
+          "id": "fast-food-8",
+          "name_bn": "সমুচা",
+          "name_en": "Samosa",
+          "price_bdt": 10
+        },
+        {
+          "id": "fast-food-9",
+          "name_bn": "সিঙ্গাড়া",
+          "name_en": "Singara",
+          "price_bdt": 10
+        },
+        {
+          "id": "fast-food-10",
+          "name_bn": "চিকেন চাউমিন",
+          "name_en": "Chicken Chow Mein",
+          "price_bdt": 80
+        }
+      ]
+    },
+    {
+      "id": "appetizers",
+      "name_en": "Appetizers",
+      "name_bn": "এপিটাইজার",
+      "items": [
+        {
+          "id": "appetizers-1",
+          "name_bn": "ফ্রাইড অনথন ৮পিস",
+          "name_en": "Fried Wonton (8 pieces)",
+          "price_bdt": 280,
+          "note": "Printed Bengali wording appears অনথন; standard dish name is wonton."
+        },
+        {
+          "id": "appetizers-2",
+          "name_bn": "চিকেন স্প্রিংরোল ৮পিস",
+          "name_en": "Chicken Spring Roll (8 pieces)",
+          "price_bdt": 310,
+          "note": "Some interior letters in the printed Bengali spelling are indistinct."
+        },
+        {
+          "id": "appetizers-3",
+          "name_bn": "চিকেন মোমো ৬পিস",
+          "name_en": "Chicken Momo (6 pieces)",
+          "price_bdt": 310
+        },
+        {
+          "id": "appetizers-4",
+          "name_bn": "মিট বক্স",
+          "name_en": "Meat Box",
+          "price_bdt": 260
+        },
+        {
+          "id": "appetizers-5",
+          "name_bn": "চিকেন স্টিম",
+          "name_en": "Chicken Steam",
+          "price_bdt": 280
+        },
+        {
+          "id": "appetizers-6",
+          "name_bn": "চিকেন ললিপপ ৬পিস",
+          "name_en": "Chicken Lollipop (6 pieces)",
+          "price_bdt": 230
+        }
+      ]
+    },
+    {
+      "id": "breakfast",
+      "name_en": "Breakfast",
+      "name_bn": "নাস্তা",
+      "items": [
+        {
+          "id": "breakfast-1",
+          "name_bn": "তন্দুর রুটি",
+          "name_en": "Tandoor Roti",
+          "price_bdt": 20
+        },
+        {
+          "id": "breakfast-2",
+          "name_bn": "মিক্স ভাজিটেবল/ডাল",
+          "name_en": "Mixed Vegetables / Dal",
+          "price_bdt": 20
+        },
+        {
+          "id": "breakfast-3",
+          "name_bn": "পরোটা",
+          "name_en": "Paratha",
+          "price_bdt": 10
+        },
+        {
+          "id": "breakfast-4",
+          "name_bn": "এগ অমলেট",
+          "name_en": "Egg Omelette",
+          "price_bdt": 20
+        },
+        {
+          "id": "breakfast-5",
+          "name_bn": "স্পেশাল খিচুরি",
+          "name_en": "Special Khichuri",
+          "price_bdt": 30
+        }
+      ]
+    },
+    {
+      "id": "kabab-grill",
+      "name_en": "Kabab & Grill",
+      "name_bn": "কাবাব ও গ্রিল",
+      "items": [
+        {
+          "id": "kabab-grill-1",
+          "name_bn": "ক্যাফে অরণ্য স্পেশাল গ্রীল (V4)",
+          "name_en": "Cafe Aronno Special Grill",
+          "price_bdt": 130,
+          "portion_bn_raw": "(V4)",
+          "portion_en": null,
+          "note": "Portion mark visually resembles V4. It may be a quarter symbol, but this is not confirmed."
+        },
+        {
+          "id": "kabab-grill-2",
+          "name_bn": "ক্যাফে অরণ্য স্পেশাল চাপ",
+          "name_en": "Cafe Aronno Special Chaap",
+          "price_bdt": 160
+        },
+        {
+          "id": "kabab-grill-3",
+          "name_bn": "চিকেন তন্দুরী কাবাব",
+          "name_en": "Chicken Tandoori Kebab",
+          "price_bdt": 230
+        },
+        {
+          "id": "kabab-grill-4",
+          "name_bn": "চিকেন বটি কাবাব",
+          "name_en": "Chicken Boti Kebab",
+          "price_bdt": 250
+        },
+        {
+          "id": "kabab-grill-5",
+          "name_bn": "চিকেন রেশমী কাবাব",
+          "name_en": "Chicken Reshmi Kebab",
+          "price_bdt": 240
+        },
+        {
+          "id": "kabab-grill-6",
+          "name_bn": "চিকেন হারিয়ালী কাবাব",
+          "name_en": "Chicken Hariyali Kebab",
+          "price_bdt": 290
+        },
+        {
+          "id": "kabab-grill-7",
+          "name_bn": "ক্যাফে অরণ্য স্পেশাল ফিস BBQ",
+          "name_en": "Cafe Aronno Special Fish BBQ",
+          "price_bdt": null,
+          "price_note": "Price on kg"
+        }
+      ]
+    },
+    {
+      "id": "naan-roti",
+      "name_en": "Naan / Roti / Parota",
+      "name_bn": "নান / রুটি / পরোটা",
+      "items": [
+        {
+          "id": "naan-roti-1",
+          "name_bn": "নান (Plain)",
+          "name_en": "Plain Naan",
+          "price_bdt": 30
+        },
+        {
+          "id": "naan-roti-2",
+          "name_bn": "বাটার নান",
+          "name_en": "Butter Naan",
+          "price_bdt": 40
+        },
+        {
+          "id": "naan-roti-3",
+          "name_bn": "গার্লিক নান",
+          "name_en": "Garlic Naan",
+          "price_bdt": 50
+        },
+        {
+          "id": "naan-roti-4",
+          "name_bn": "পেশোয়ারি পরোটা",
+          "name_en": "Peshawari Paratha",
+          "price_bdt": 40
+        },
+        {
+          "id": "naan-roti-5",
+          "name_bn": "লুচি",
+          "name_en": "Luchi",
+          "price_bdt": 10
+        },
+        {
+          "id": "naan-roti-6",
+          "name_bn": "তন্দুর রুটি",
+          "name_en": "Tandoor Roti",
+          "price_bdt": 20
+        }
+      ]
+    },
+    {
+      "id": "chinese",
+      "name_en": "Chinese",
+      "name_bn": "চাইনিজ",
+      "items": [
+        {
+          "id": "chinese-1",
+          "name_bn": "এগ ফ্রাইড রাইস",
+          "name_en": "Egg Fried Rice",
+          "prices_bdt": [
+            {
+              "label_bn": "১:১",
+              "label_en": "1:1",
+              "price": 120
+            },
+            {
+              "label_bn": "১:৩",
+              "label_en": "1:3",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "id": "chinese-2",
+          "name_bn": "চিকেন ফ্রাইড রাইস",
+          "name_en": "Chicken Fried Rice",
+          "prices_bdt": [
+            {
+              "label_bn": "১:১",
+              "label_en": "1:1",
+              "price": 140
+            },
+            {
+              "label_bn": "১:৩",
+              "label_en": "1:3",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "id": "chinese-3",
+          "name_bn": "মিক্স ফ্রাইড রাইস",
+          "name_en": "Mixed Fried Rice",
+          "prices_bdt": [
+            {
+              "label_bn": "১:১",
+              "label_en": "1:1",
+              "price": 160
+            },
+            {
+              "label_bn": "১:৩",
+              "label_en": "1:3",
+              "price": 430
+            }
+          ]
+        },
+        {
+          "id": "chinese-4",
+          "name_bn": "এগ চৌমিন",
+          "name_en": "Egg Chow Mein",
+          "prices_bdt": [
+            {
+              "label_bn": "১:১",
+              "label_en": "1:1",
+              "price": 130
+            },
+            {
+              "label_bn": "১:৩",
+              "label_en": "1:3",
+              "price": 370
+            }
+          ]
+        },
+        {
+          "id": "chinese-5",
+          "name_bn": "চিকেন চাউমিন",
+          "name_en": "Chicken Chow Mein",
+          "prices_bdt": [
+            {
+              "label_bn": "১:১",
+              "label_en": "1:1",
+              "price": 150
+            },
+            {
+              "label_bn": "১:৩",
+              "label_en": "1:3",
+              "price": 450
+            }
+          ]
+        },
+        {
+          "id": "chinese-6",
+          "name_bn": "চিকেন সিজলিং",
+          "name_en": "Chicken Sizzling",
+          "prices_bdt": [
+            {
+              "label_bn": "১:১",
+              "label_en": "1:1",
+              "price": 350
+            },
+            {
+              "label_bn": "১:৩",
+              "label_en": "1:3",
+              "price": 480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "name_en": "Pizza",
+      "name_bn": "পিজ্জা",
+      "items": [
+        {
+          "id": "pizza-1",
+          "name_bn": "BBQ চিকেন পিজ্জা",
+          "name_en": "BBQ Chicken Pizza",
+          "prices_bdt": [
+            {
+              "label_bn": "৬ ইঞ্চি",
+              "label_en": "6-inch",
+              "price": 350
+            },
+            {
+              "label_bn": "১০ ইঞ্চি",
+              "label_en": "10-inch",
+              "price": 650
+            },
+            {
+              "label_bn": "১২ ইঞ্চি",
+              "label_en": "12-inch",
+              "price": 950
+            }
+          ]
+        },
+        {
+          "id": "pizza-2",
+          "name_bn": "ক্লাসিক পিজ্জা",
+          "name_en": "Classic Pizza",
+          "prices_bdt": [
+            {
+              "label_bn": "৬ ইঞ্চি",
+              "label_en": "6-inch",
+              "price": 360
+            },
+            {
+              "label_bn": "১০ ইঞ্চি",
+              "label_en": "10-inch",
+              "price": 490
+            },
+            {
+              "label_bn": "১২ ইঞ্চি",
+              "label_en": "12-inch",
+              "price": 890
+            }
+          ],
+          "note": "All three prices verified against the high-resolution Google Maps menu photograph."
+        }
+      ]
+    },
+    {
+      "id": "biriyani",
+      "name_en": "Biriyani",
+      "name_bn": "বিরিয়ানি",
+      "items": [
+        {
+          "id": "biriyani-1",
+          "name_bn": "ক্যাফে অরণ্য স্পেশাল চিকেন বিরিয়ানি",
+          "name_en": "Cafe Aronno Special Chicken Biriyani",
+          "prices_bdt": [
+            {
+              "label_bn": "হাফ",
+              "label_en": "Half",
+              "price": 220
+            },
+            {
+              "label_bn": "ফুল",
+              "label_en": "Full",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "id": "biriyani-2",
+          "name_bn": "ক্যাফে অরণ্য স্পেশাল মাটন তেহারী",
+          "name_en": "Cafe Aronno Special Mutton Tehari",
+          "price_bdt": 200,
+          "note": "Only one price is printed; no full-portion price is visible."
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "name_en": "Soups",
+      "name_bn": "স্যুপ",
+      "items": [
+        {
+          "id": "soups-1",
+          "name_bn": "ক্যাফে অরণ্য স্পেশাল স্যুপ",
+          "name_en": "Cafe Aronno Special Soup",
+          "prices_bdt": [
+            {
+              "label_bn": "১:১",
+              "label_en": "1:1",
+              "price": 150
+            },
+            {
+              "label_bn": "১:৩",
+              "label_en": "1:3",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "id": "soups-2",
+          "name_bn": "থাই স্যুপ",
+          "name_en": "Thai Soup",
+          "prices_bdt": [
+            {
+              "label_bn": "১:১",
+              "label_en": "1:1",
+              "price": 130
+            },
+            {
+              "label_bn": "১:৩",
+              "label_en": "1:3",
+              "price": 380
+            }
+          ]
+        },
+        {
+          "id": "soups-3",
+          "name_bn": "চিকেন কর্ন স্যুপ",
+          "name_en": "Chicken Corn Soup",
+          "prices_bdt": [
+            {
+              "label_bn": "১:১",
+              "label_en": "1:1",
+              "price": 110
+            },
+            {
+              "label_bn": "১:৩",
+              "label_en": "1:3",
+              "price": 330
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "halim-fuchka-chatpoti",
+      "name_en": "Halim / Fuchka / Chatpoti",
+      "name_bn": "হালিম / ফুচকা / চটপটি",
+      "items": [
+        {
+          "id": "halim-fuchka-chatpoti-1",
+          "name_bn": "ক্যাফে অরণ্য স্পেশাল হালিম",
+          "name_en": "Cafe Aronno Special Halim",
+          "prices_bdt": [
+            {
+              "label_bn": "হাফ",
+              "label_en": "Half",
+              "price": 80
+            },
+            {
+              "label_bn": "ফুল",
+              "label_en": "Full",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "halim-fuchka-chatpoti-2",
+          "name_bn": "ক্যাফে অরণ্য স্পেশাল চটপটি",
+          "name_en": "Cafe Aronno Special Chotpoti",
+          "prices_bdt": [
+            {
+              "label_bn": "হাফ",
+              "label_en": "Half",
+              "price": 50
+            },
+            {
+              "label_bn": "ফুল",
+              "label_en": "Full",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "id": "halim-fuchka-chatpoti-3",
+          "name_bn": "ক্যাফে অরণ্য স্পেশাল ফুচকা",
+          "name_en": "Cafe Aronno Special Fuchka",
+          "price_bdt": 50,
+          "note": "Only one price is printed."
+        }
+      ]
+    },
+    {
+      "id": "salad",
+      "name_en": "Salad",
+      "name_bn": "সালাদ",
+      "items": [
+        {
+          "id": "salad-1",
+          "name_bn": "চিকেন ক্যাশনাট সালাদ",
+          "name_en": "Chicken Cashew Nut Salad",
+          "price_bdt": 300
+        },
+        {
+          "id": "salad-2",
+          "name_bn": "চিকেন প্রাউন ক্যাশনাট সালাদ",
+          "name_en": "Chicken Prawn Cashew Nut Salad",
+          "price_bdt": 380
+        }
+      ]
+    },
+    {
+      "id": "tea-coffee",
+      "name_en": "Tea and Coffee",
+      "name_bn": "চা/কফি",
+      "items": [
+        {
+          "id": "tea-coffee-1",
+          "name_bn": "গোল্ড কফি",
+          "name_en": "Coffee",
+          "price_bdt": 10,
+          "uncertain_name": true,
+          "note": "First word is unclear; appears গোল্ড. English is deliberately generic."
+        },
+        {
+          "id": "tea-coffee-2",
+          "name_bn": "দুধ চা",
+          "name_en": "Milk Tea",
+          "price_bdt": 20
+        },
+        {
+          "id": "tea-coffee-3",
+          "name_bn": "রং চা",
+          "name_en": "Black Tea",
+          "price_bdt": 10
+        },
+        {
+          "id": "tea-coffee-4",
+          "name_bn": "হট কফি",
+          "name_en": "Hot Coffee",
+          "price_bdt": 60
+        },
+        {
+          "id": "tea-coffee-5",
+          "name_bn": "চকলেট কোল্ড কফি",
+          "name_en": "Chocolate Cold Coffee",
+          "price_bdt": 150
+        },
+        {
+          "id": "tea-coffee-6",
+          "name_bn": "ভ্যানিলা মিল্ক শেক",
+          "name_en": "Vanilla Milkshake",
+          "price_bdt": 150
+        },
+        {
+          "id": "tea-coffee-7",
+          "name_bn": "ক্যাফে অরণ্য স্পেশাল লেবু পানি",
+          "name_en": "Cafe Aronno Special Lemon Water",
+          "price_bdt": 50
+        },
+        {
+          "id": "tea-coffee-8",
+          "name_bn": "ক্যাফে অরণ্য স্পেশাল মালাই দুধ চা",
+          "name_en": "Cafe Aronno Special Malai Milk Tea",
+          "price_bdt": 50
+        },
+        {
+          "id": "tea-coffee-9",
+          "name_bn": "Soft drinks (coke/Sprite)",
+          "name_en": "Soft Drinks (Coke / Sprite)",
+          "price_bdt": 25,
+          "note": "Source line is printed in English."
+        },
+        {
+          "id": "tea-coffee-10",
+          "name_bn": "Water",
+          "name_en": "Water",
+          "price_bdt": 20,
+          "note": "Source line is printed in English."
+        }
+      ]
+    },
+    {
+      "id": "set-menu",
+      "name_en": "Set Menu",
+      "name_bn": "সেট মেনু",
+      "items": [
+        {
+          "id": "set-menu-1",
+          "name_bn": "সেট মেনু ১",
+          "name_en": "Set Menu 1",
+          "price_bdt": 285,
+          "contents_bn": [
+            "এগ ফ্রাইড রাইস",
+            "থাই ফ্রাইড চিকেন - ২ পিস",
+            "মিক্স ভাজিটেবল",
+            "সালাদ"
+          ],
+          "contents_en": [
+            "Egg fried rice",
+            "Thai fried chicken (2 pieces)",
+            "Mixed vegetables",
+            "Salad"
+          ]
+        },
+        {
+          "id": "set-menu-2",
+          "name_bn": "সেট মেনু ২",
+          "name_en": "Set Menu 2",
+          "price_bdt": 330,
+          "contents_bn": [
+            "চিকেন ফ্রাইড রাইস",
+            "থাই ফ্রাইড চিকেন - ২ পিস",
+            "চিকেন চিলি অনিয়ন",
+            "মিক্স ভাজিটেবল",
+            "সালাদ"
+          ],
+          "contents_en": [
+            "Chicken fried rice",
+            "Thai fried chicken (2 pieces)",
+            "Chicken chili onion",
+            "Mixed vegetables",
+            "Salad"
+          ]
+        },
+        {
+          "id": "set-menu-3",
+          "name_bn": "সেট মেনু ৩",
+          "name_en": "Set Menu 3",
+          "price_bdt": 350,
+          "contents_bn": [
+            "এগ ফ্রাইড রাইস",
+            "B.B.Q হট উইংস - ২ পিস",
+            "চিলি অনিয়ন",
+            "মিক্স ভাজিটেবল",
+            "সালাদ"
+          ],
+          "contents_en": [
+            "Egg fried rice",
+            "BBQ hot wings (2 pieces)",
+            "Chili onion",
+            "Mixed vegetables",
+            "Salad"
+          ],
+          "note": "Glare crosses the first two lines; these are still sufficiently readable."
+        }
+      ]
+    }
+  ],
+  "ambiguities": [
+    {
+      "item_id": "tea-coffee-1",
+      "field": "Bengali first word",
+      "raw": "গোল্ড কফি",
+      "resolution": "Approximate transcription; exact first word unconfirmed. Price 10 is clear."
+    },
+    {
+      "item_id": "kabab-grill-1",
+      "field": "portion",
+      "raw": "V4",
+      "resolution": "May mean quarter; preserve raw or omit portion until confirmed."
+    },
+    {
+      "item_id": "appetizers-1",
+      "field": "exact Bengali spelling",
+      "raw": "ফ্রাইড অনথন ৮পিস",
+      "resolution": "English dish is Fried Wonton (8 pieces)."
+    },
+    {
+      "item_id": "appetizers-2",
+      "field": "exact Bengali spelling",
+      "raw": "চিকেন স্প্রিংরোল ৮পিস",
+      "resolution": "English dish is Chicken Spring Roll (8 pieces)."
+    }
+  ],
+  "counts": {
+    "categories": 13,
+    "items": 65,
+    "price_options": 81,
+    "numeric_prices": 80
+  }
+}

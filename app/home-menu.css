@@ -1,0 +1,30 @@
+/* Full-width categories keep shorter groups from leaving empty grid rows. */
+.menu-section .menu-grid{display:flex;flex-direction:column;gap:24px}
+.menu-section .menu-category{width:100%;overflow:hidden;border:1px solid #d8dfcd;border-radius:12px;background:#fffefa;box-shadow:0 5px 18px #17392e04}
+.menu-section .category-heading{padding:22px 26px;border:0;border-bottom:1px solid #dce3d1;background:#edf1e4;gap:20px}
+.menu-category-title{display:flex;align-items:center;gap:17px;min-width:0}
+.menu-category-symbol{display:grid;place-items:center;width:51px;height:51px;flex-shrink:0;border:1px solid #c6d3b5;background:#f9fbf3;border-radius:50%;color:#577143}
+.menu-section .menu-category-kicker{font-family:var(--sans);font-size:9px;letter-spacing:1.8px;color:#738466;line-height:1.4;margin:0 0 6px}
+.menu-section .category-heading h3{font-family:var(--serif);font-size:28px;color:#214432;line-height:1.3}
+.language-bn .menu-section .category-heading h3{font-family:var(--bengali);font-size:25px;line-height:1.5;letter-spacing:-.4px}
+.menu-section .category-heading>.menu-category-total{height:auto;min-width:0;border:1px solid #cbd8bc;border-radius:30px;padding:6px 13px;font-size:11px;white-space:nowrap;background:#f9fbf3;color:#5c704b}
+.menu-section .menu-dishes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:20px}
+.menu-section .menu-item{padding:19px 20px;border:1px solid #e6e9de;border-radius:7px;background:#fff;transition:background .18s,border-color .18s;min-width:0}
+.menu-section .menu-item:hover{background:#fbfcf5;border-color:#b5c6a0}
+.menu-section .menu-item-line{gap:15px;align-items:baseline}
+.menu-section .menu-item h4{font-size:15px;font-weight:500;line-height:1.65}
+.menu-section .menu-item-line>strong{font-family:var(--sans);background:#edf3e1;color:#34572c;border:1px solid #e2eacd;border-radius:5px;padding:3px 9px;font-size:15px;line-height:1.5;font-weight:600}
+.language-bn .menu-section .menu-item-line>strong{font-family:var(--bengali)}
+.menu-section .menu-secondary{margin:5px 0 0;font-size:12px;color:#76816e;line-height:1.7}
+.menu-section .menu-secondary[lang=en]{font-family:var(--sans)}
+.menu-section .portion-prices{margin-top:15px;gap:0;background:#f4f6ed;border:1px solid #e5eadb;border-radius:5px;padding:10px 5px}
+.menu-section .portion-prices>span{flex:1;justify-content:center;align-items:center;gap:12px;padding:0 9px;border-right:1px solid #dbe2cd;font-size:11px}
+.menu-section .portion-prices>span:last-child{border-right:0}
+.menu-section .portion-prices strong{font-size:14px;color:#34572c;font-weight:600;white-space:nowrap}
+.menu-section .set-contents{border-top:1px dashed #dce3d0;padding-top:12px;margin-top:13px;font-size:12px;line-height:2;color:#6a785d}
+@media(min-width:1500px){.menu-section .menu-dishes{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:900px){.menu-section .menu-dishes{gap:10px;padding:15px}.menu-section .menu-item{padding:16px}.menu-section .category-heading{padding:20px}.menu-section .portion-prices>span{flex-direction:column;gap:3px;padding:0 5px}}
+@media(max-width:600px){.menu-section .menu-grid{gap:20px}.menu-section .menu-category{border-radius:9px}.menu-section .category-heading{padding:18px 16px;gap:10px}.menu-category-title{gap:11px}.menu-category-symbol{width:41px;height:41px}.menu-category-symbol svg{width:21px;height:21px}.menu-section .menu-category-kicker{font-size:8px;letter-spacing:1.1px;margin-bottom:4px}.menu-section .category-heading h3{font-size:22px}.language-bn .menu-section .category-heading h3{font-size:20px}.menu-section .category-heading>.menu-category-total{font-size:10px;padding:4px 9px}.menu-section .menu-dishes{grid-template-columns:1fr;padding:11px;gap:9px}.menu-section .menu-item{padding:16px}.menu-section .menu-item h4{font-size:15px}.menu-section .menu-item-line>strong{font-size:14px}.menu-section .portion-prices>span{flex-direction:row;gap:10px}.menu-section .menu-secondary{font-size:12px}}
+@media(max-width:360px){.menu-section .category-heading>.menu-category-total{font-size:9px;padding:4px 7px}.language-bn .menu-section .category-heading h3{font-size:18px}.menu-category-symbol{width:35px;height:35px}.menu-category-title{gap:8px}}
+@media(prefers-reduced-motion:reduce){.menu-section .menu-item{transition:none}}
+@media print{.menu-section .menu-grid{display:block}.menu-section .menu-category{box-shadow:none;margin-bottom:15px;break-inside:auto}.menu-section .category-heading{padding:12px;break-after:avoid}.menu-section .menu-dishes{grid-template-columns:repeat(2,minmax(0,1fr));padding:10px;gap:8px}.menu-section .menu-item{break-inside:avoid;padding:10px}.menu-section .menu-item-line>strong{background:none}}
